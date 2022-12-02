@@ -715,10 +715,10 @@
                                 <div class="od-39">
                                     <div class="MuiContainer-root MuiContainer-maxWidthLg">
                                         <div class="custom-slick">
-                                            <div class="roadmap activeRoadmap">
+                                            <div class="roadmap">
                                                 <div>
                                                     <p class=" MuiTypography-root jss292 MuiTypography-body1">
-                                                    <div class="MuiBox-root jss294 jss248">
+                                                    <div class="MuiBox-root jss294 ">
                                                         <div class="MuiContainer-root MuiContainer-maxWidthSm">
                                                             <div class="MuiBox-root jss295">
                                                                 <h5 class="MuiTypography-root MuiTypography-h5">
@@ -1130,7 +1130,7 @@
                                             <div class="roadmap activeRoadmap">
                                                 <div>
                                                     <p class=" MuiTypography-root jss292 MuiTypography-body1">
-                                                    <div class="MuiBox-root jss294 jss248">
+                                                    <div class="MuiBox-root jss294 ">
                                                         <div class="MuiContainer-root MuiContainer-maxWidthSm">
                                                             <div class="MuiBox-root jss295">
                                                                 <h5 class="MuiTypography-root MuiTypography-h5">
@@ -1719,13 +1719,14 @@
             include 'footer.html';
             ?>
             <script>
-            let iconRoadMap = Array.from(document.querySelectorAll('.icon-roadmap-image'));
+            let iconRoadMap = Array.from(document.querySelectorAll(' .icon-roadmap-image'));
             iconRoadMap.forEach((elm, idx) => {
                 elm.addEventListener('click', () => {
-                    let active = document.querySelector('.active-roadmap');
-                    let wrapLine = document.querySelectorAll('.wrap-line');
-                    let roadmap = document.querySelectorAll('.roadmap');
-                    let roadmapActive = document.querySelector('.roadmap.activeRoadmap')
+
+                    let active = document.querySelector('.custom-click .active-roadmap');
+                    let wrapLine = document.querySelectorAll('.custom-click .wrap-line');
+                    let roadmap = document.querySelectorAll('.custom-click .roadmap');
+                    let roadmapActive = document.querySelector('.custom-click .roadmap.activeRoadmap')
                     active.classList.remove('active-roadmap')
                     elm.classList.add('active-roadmap')
                     for (let index = 0; index < wrapLine.length; index++) {

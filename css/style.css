@@ -572,17 +572,21 @@ footer {
         outline: none !important;
     }
 
-    .roadmap {
-        margin-top: 1rem
-    }
 
-    .roadmap .MuiContainer-root.MuiContainer-maxWidthSm {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: flex-start;
-    }
 
+}
+
+.roadmap {
+    margin-top: 1rem
+}
+
+.roadmap .MuiContainer-root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    min-height: 400px
 }
 
 .slick-dots {
