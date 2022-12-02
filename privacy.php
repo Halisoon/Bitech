@@ -32,7 +32,7 @@
             <?php
             include 'header.html';
             ?>
-            <div class="jss2">
+            <div class="jss2 mainContent">
                 <div class="jss231">
                     <div class="MuiBox-root jss236">
                         <div class="MuiContainer-root jss235 MuiContainer-maxWidthLg">

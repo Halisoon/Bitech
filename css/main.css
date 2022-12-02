@@ -134,9 +134,9 @@ body {
     content: "‹"
 }
 
-.height100, .slick-list, .slick-slide>*, .slick-track, .slick-track>* {
+/* .height100, .slick-list, .slick-slide>*, .slick-track, .slick-track>* {
     height: 100%
-}
+} */
 
 .slick-next:before, .slick-prev:before {
     line-height: 1;

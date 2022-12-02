@@ -27,8 +27,8 @@
         <div class="jss1" style="">
             <?php
             include 'header.html';
-        ?>
-            <div class="jss2">
+            ?>
+            <div class="jss2 mainContent">
                 <div class="MuiBox-root jss115 jss114">
                     <div class="MuiBox-root jss117 jss116">
                         <div class="MuiBox-root jss118 shade"></div>
@@ -684,8 +684,8 @@
                 </div>
             </div>
             <?php
-        include 'footer.html';
-        ?>
+            include 'footer.html';
+            ?>
         </div>
     </div>
 </body>

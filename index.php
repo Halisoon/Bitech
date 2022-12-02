@@ -2,15 +2,15 @@
 
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" charset="UTF-8"
-        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.3.15/slick.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
+
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&amp;display=swap"
         rel="stylesheet">
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
         rel="stylesheet">
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <title>Bitechchain</title>
 
     <link rel="stylesheet" href="./css/main.css">
@@ -714,368 +714,831 @@
                                 </div>
                                 <div class="od-39">
                                     <div class="MuiContainer-root MuiContainer-maxWidthLg">
-                                        <div class="roadmap activeRoadmap">
-                                            <div>
-                                                <p class=" MuiTypography-root jss292 MuiTypography-body1">
-                                                <div class="MuiBox-root jss294 jss248">
-                                                    <div class="MuiContainer-root MuiContainer-maxWidthSm">
-                                                        <div class="MuiBox-root jss295">
-                                                            <h5 class="MuiTypography-root MuiTypography-h5">
-                                                                September 2021
-                                                            </h5>
-                                                        </div>
-                                                        <div class="MuiBox-root jss296">
-                                                            <img src="./assets/images/bulb.png" alt="">
-                                                        </div>
-                                                        <div class="MuiBox-root jss297">
-                                                            <h6 class="MuiTypography-root MuiTypography-h6">Idea
-                                                                generation and group gathering
-                                                            </h6>
-                                                        </div>
-                                                        <div class="MuiBox-root jss298">
-                                                            <p class="MuiTypography-root MuiTypography-body2">
-                                                                Luckily we had the same idea about building the next
-                                                                generation of decentralized computing power and from
-                                                                there our company was born
-                                                            </p>
+                                        <div class="custom-slick">
+                                            <div class="roadmap activeRoadmap">
+                                                <div>
+                                                    <p class=" MuiTypography-root jss292 MuiTypography-body1">
+                                                    <div class="MuiBox-root jss294 jss248">
+                                                        <div class="MuiContainer-root MuiContainer-maxWidthSm">
+                                                            <div class="MuiBox-root jss295">
+                                                                <h5 class="MuiTypography-root MuiTypography-h5">
+                                                                    September 2021
+                                                                </h5>
+                                                            </div>
+                                                            <div class="MuiBox-root jss296">
+                                                                <img src="./assets/images/bulb.png" alt="">
+                                                            </div>
+                                                            <div class="MuiBox-root jss297">
+                                                                <h6 class="MuiTypography-root MuiTypography-h6">Idea
+                                                                    generation and group gathering
+                                                                </h6>
+                                                            </div>
+                                                            <div class="MuiBox-root jss298">
+                                                                <p class="MuiTypography-root MuiTypography-body2">
+                                                                    Luckily we had the same idea about building the next
+                                                                    generation of decentralized computing power and from
+                                                                    there our company was born
+                                                                </p>
+                                                            </div>
                                                         </div>
                                                     </div>
+                                                    </p>
+                                                    <div></div>
                                                 </div>
-                                                </p>
-                                                <div></div>
                                             </div>
-                                        </div>
-                                        <div class="roadmap">
-                                            <div>
-                                                <p class=" MuiTypography-root jss197 MuiTypography-body1">
-                                                <div class="MuiBox-root jss528 jss525" align="center">
-                                                    <div class="MuiContainer-root MuiContainer-maxWidthSm">
-                                                        <div class="MuiBox-root jss529" align="center">
-                                                            <h5 class="MuiTypography-root MuiTypography-h5">QIII, QIV
-                                                                2022</h5>
-                                                        </div>
-                                                        <div
-                                                            class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2">
-                                                            <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2 MuiGrid-grid-sm-2 MuiGrid-grid-md-2 MuiGrid-grid-lg-2"
-                                                                align="left"><img src="./assets/images/app.png"
-                                                                    alt="images">
+                                            <div class="roadmap">
+                                                <div>
+                                                    <p class=" MuiTypography-root jss197 MuiTypography-body1">
+                                                    <div class="MuiBox-root jss528 jss525" align="center">
+                                                        <div class="MuiContainer-root MuiContainer-maxWidthSm">
+                                                            <div class="MuiBox-root jss529" align="center">
+                                                                <h5 class="MuiTypography-root MuiTypography-h5">QIII,
+                                                                    QIV
+                                                                    2022</h5>
                                                             </div>
-                                                            <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-10 MuiGrid-grid-lg-10"
-                                                                align="left">
-                                                                <h6 class="MuiTypography-root MuiTypography-h6">AI App
-                                                                </h6>
-                                                                <p class="MuiTypography-root MuiTypography-body2">There
-                                                                    will be a great assistant for businesses in today's
-                                                                    human resource management</p>
-                                                            </div>
-                                                        </div>
-                                                        <div class="MuiBox-root jss530">
-                                                            <div
-                                                                class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2">
-                                                                <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-9 MuiGrid-grid-sm-10 MuiGrid-grid-md-10 MuiGrid-grid-lg-10"
-                                                                    align="right">
-                                                                    <h6 class="MuiTypography-root MuiTypography-h6">
-                                                                        Social Media</h6>
-                                                                    <p class="MuiTypography-root MuiTypography-body2">
-                                                                        Exciting experiences await the first users of
-                                                                        our social networking platform. It will
-                                                                        definitely be interesting!</p>
-                                                                </div>
-                                                                <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3 MuiGrid-grid-sm-2 MuiGrid-grid-md-2 MuiGrid-grid-lg-2"
-                                                                    align="left"><img
-                                                                        src="./assets/images/socialIcon.png"
-                                                                        alt="images"></div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="MuiBox-root jss531">
                                                             <div
                                                                 class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2">
                                                                 <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2 MuiGrid-grid-sm-2 MuiGrid-grid-md-2 MuiGrid-grid-lg-2"
-                                                                    align="left"><img src="./assets/images/chainP.png"
-                                                                        alt="images"></div>
+                                                                    align="left"><img src="./assets/images/app.png"
+                                                                        alt="images">
+                                                                </div>
                                                                 <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-10 MuiGrid-grid-lg-10"
                                                                     align="left">
-                                                                    <h6 class="MuiTypography-root MuiTypography-h6">
-                                                                        Private Chain + Stable Coin (Bit = USDT)</h6>
-                                                                    <p class="MuiTypography-root MuiTypography-body2">1
-                                                                        platform coin used to store and exchange value
-                                                                        in the Biworld ecosystem will appear</p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                </p>
-                                                <div></div>
-                                            </div>
-                                        </div>
-                                        <div class="roadmap">
-                                            <div>
-                                                <p class=" MuiTypography-root jss197 MuiTypography-body1">
-                                                <div class="MuiBox-root jss535 jss532" align="center">
-                                                    <div class="MuiContainer-root MuiContainer-maxWidthSm">
-                                                        <div class="MuiBox-root jss536" align="center">
-                                                            <h5 class="MuiTypography-root MuiTypography-h5">QI, QII 2023
-                                                            </h5>
-                                                        </div>
-                                                        <div
-                                                            class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2">
-                                                            <div class="MuiGrid-root MuiGrid-grid-xs-2 MuiGrid-grid-sm-2 MuiGrid-grid-md-2 MuiGrid-grid-lg-2"
-                                                                align="left"><img src="./assets/images/arbitrage.png"
-                                                                    alt="images">
-                                                            </div>
-                                                            <div class="MuiGrid-root MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-10 MuiGrid-grid-lg-10"
-                                                                align="left">
-                                                                <h6 class="MuiTypography-root MuiTypography-h6">
-                                                                    Arbitrage Bot Development</h6>
-                                                                <p class="MuiTypography-root MuiTypography-body2">Simple
-                                                                    and useful for traders who want to automate their
-                                                                    buy and sell orders</p>
-                                                            </div>
-                                                        </div>
-                                                        <div class="MuiBox-root jss537">
-                                                            <div
-                                                                class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2">
-                                                                <div class="MuiGrid-root MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-10 MuiGrid-grid-lg-10"
-                                                                    align="right">
-                                                                    <h6 class="MuiTypography-root MuiTypography-h6">
-                                                                        Play2Earn With NFT Staking</h6>
-                                                                    <p class="MuiTypography-root MuiTypography-body2">
-                                                                        There will be a combination of focus on
-                                                                        collection and focus on creativity</p>
-                                                                </div>
-                                                                <div class="MuiGrid-root MuiGrid-grid-xs-2 MuiGrid-grid-sm-2 MuiGrid-grid-md-2 MuiGrid-grid-lg-2"
-                                                                    align="right"><img src="./assets/images/earn.png"
-                                                                        alt="images">
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="MuiBox-root jss538">
-                                                            <div
-                                                                class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2">
-                                                                <div class="MuiGrid-root MuiGrid-grid-xs-2 MuiGrid-grid-sm-2 MuiGrid-grid-md-2 MuiGrid-grid-lg-2"
-                                                                    align="left"><img src="./assets/images/nftm.png"
-                                                                        alt="images">
-                                                                </div>
-                                                                <div class="MuiGrid-root MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-10 MuiGrid-grid-lg-10"
-                                                                    align="left">
-                                                                    <h6 class="MuiTypography-root MuiTypography-h6">NFT
-                                                                        Marketplace</h6>
-                                                                    <p class="MuiTypography-root MuiTypography-body2">
-                                                                        Where you can trade, buy and sell your NFTs.
-                                                                        This place helps transfer value between projects
-                                                                        and the Biworld ecosystem</p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="MuiBox-root jss539">
-                                                            <div
-                                                                class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2">
-                                                                <div class="MuiGrid-root MuiGrid-grid-xs-10 MuiGrid-grid-sm-9 MuiGrid-grid-md-9 MuiGrid-grid-lg-10"
-                                                                    align="right">
-                                                                    <h6 class="MuiTypography-root MuiTypography-h6">IOT
-                                                                        App</h6>
-                                                                    <p class="MuiTypography-root MuiTypography-body2">
-                                                                        We'll integrate multiple apps so you can control
-                                                                        as many things as possible</p>
-                                                                </div>
-                                                                <div class="MuiGrid-root MuiGrid-grid-xs-2 MuiGrid-grid-sm-3 MuiGrid-grid-md-3 MuiGrid-grid-lg-2"
-                                                                    align="right"><img src="./assets/images/iot.png"
-                                                                        alt="images">
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                </p>
-                                                <div></div>
-                                            </div>
-                                        </div>
-                                        <div class="roadmap">
-                                            <div>
-                                                <p class=" MuiTypography-root jss197 MuiTypography-body1">
-                                                <div class="MuiBox-root jss543 jss540" align="center">
-                                                    <div class="MuiContainer-root MuiContainer-maxWidthSm">
-                                                        <div class="MuiBox-root jss544" align="center">
-                                                            <h5 class="MuiTypography-root MuiTypography-h5">QIII, QIV
-                                                                2023</h5>
-                                                        </div>
-                                                        <div
-                                                            class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2">
-                                                            <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2"
-                                                                align="left">
-                                                                <img src="./assets/images/roadmap_7.png" alt="images">
-                                                            </div>
-                                                            <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10"
-                                                                align="left">
-                                                                <h6 class="MuiTypography-root MuiTypography-h6">Flatform
-                                                                    Blockchain Development POS + Wallet</h6>
-                                                                <p class="MuiTypography-root MuiTypography-body2">There
-                                                                    will be a platform serving many aspects in the life
-                                                                    of the Biworld community</p>
-                                                            </div>
-                                                        </div>
-                                                        <div class="MuiBox-root jss545">
-                                                            <div
-                                                                class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2">
-                                                                <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10"
-                                                                    align="right">
-                                                                    <h6 class="MuiTypography-root MuiTypography-h6">
-                                                                        Meeting App</h6>
-                                                                    <p class="MuiTypography-root MuiTypography-body2">
-                                                                        Soon we will meet, exchange and communicate on
-                                                                        our own platform. Great!</p>
-                                                                </div>
-                                                                <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2"
-                                                                    align="left">
-                                                                    <img src="./assets/images/roadmap_8.png"
-                                                                        alt="images">
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                </p>
-                                                <div></div>
-                                            </div>
-                                        </div>
-                                        <div class="roadmap">
-                                            <div>
-                                                <p class=" MuiTypography-root jss197 MuiTypography-body1">
-                                                <div class="MuiBox-root jss548 jss546">
-                                                    <div class="MuiContainer-root MuiContainer-maxWidthSm">
-                                                        <div class="MuiBox-root jss549 jss547">
-                                                            <h5 class="MuiTypography-root MuiTypography-h5">QI, QII 2024
-                                                            </h5>
-                                                        </div>
-                                                        <div
-                                                            class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2">
-                                                            <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2"
-                                                                align="left">
-                                                                <img src="./assets/images/network.png" alt="images"
-                                                                    style="width: 67px;">
-                                                            </div>
-                                                            <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10"
-                                                                align="left">
-                                                                <h6 class="MuiTypography-root MuiTypography-h6">
-                                                                    Metaverse Development</h6>
-                                                                <p class="MuiTypography-root MuiTypography-body2">Many
-                                                                    applications will be released. However, the field of
-                                                                    education, training and health will be the most
-                                                                    focused</p>
-                                                            </div>
-                                                        </div>
-                                                        <div class="MuiBox-root jss550">
-                                                            <div
-                                                                class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2">
-                                                                <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10"
-                                                                    align="right">
-                                                                    <h6 class="MuiTypography-root MuiTypography-h6">
-                                                                        Lending &amp; Borrowing Platform Over Flatform
+                                                                    <h6 class="MuiTypography-root MuiTypography-h6">AI
+                                                                        App
                                                                     </h6>
                                                                     <p class="MuiTypography-root MuiTypography-body2">
-                                                                        There will be improvements and connections
-                                                                        between platforms to meet the needs of investors
-                                                                    </p>
+                                                                        There
+                                                                        will be a great assistant for businesses in
+                                                                        today's
+                                                                        human resource management</p>
                                                                 </div>
-                                                                <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2"
-                                                                    align="left">
-                                                                    <img src="./assets/images/lending.png" alt="images">
+                                                            </div>
+                                                            <div class="MuiBox-root jss530">
+                                                                <div
+                                                                    class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2">
+                                                                    <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-9 MuiGrid-grid-sm-10 MuiGrid-grid-md-10 MuiGrid-grid-lg-10"
+                                                                        align="right">
+                                                                        <h6 class="MuiTypography-root MuiTypography-h6">
+                                                                            Social Media</h6>
+                                                                        <p
+                                                                            class="MuiTypography-root MuiTypography-body2">
+                                                                            Exciting experiences await the first users
+                                                                            of
+                                                                            our social networking platform. It will
+                                                                            definitely be interesting!</p>
+                                                                    </div>
+                                                                    <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3 MuiGrid-grid-sm-2 MuiGrid-grid-md-2 MuiGrid-grid-lg-2"
+                                                                        align="left"><img
+                                                                            src="./assets/images/socialIcon.png"
+                                                                            alt="images"></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="MuiBox-root jss531">
+                                                                <div
+                                                                    class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2">
+                                                                    <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2 MuiGrid-grid-sm-2 MuiGrid-grid-md-2 MuiGrid-grid-lg-2"
+                                                                        align="left"><img
+                                                                            src="./assets/images/chainP.png"
+                                                                            alt="images"></div>
+                                                                    <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-10 MuiGrid-grid-lg-10"
+                                                                        align="left">
+                                                                        <h6 class="MuiTypography-root MuiTypography-h6">
+                                                                            Private Chain + Stable Coin (Bit = USDT)
+                                                                        </h6>
+                                                                        <p
+                                                                            class="MuiTypography-root MuiTypography-body2">
+                                                                            1
+                                                                            platform coin used to store and exchange
+                                                                            value
+                                                                            in the Biworld ecosystem will appear</p>
+                                                                    </div>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
+                                                    </p>
+                                                    <div></div>
                                                 </div>
-                                                </p>
-                                                <div></div>
                                             </div>
-                                        </div>
-                                        <div class="roadmap">
-                                            <div>
-                                                <p class=" MuiTypography-root jss197 MuiTypography-body1">
-                                                <div class="MuiBox-root jss553 jss551">
-                                                    <div class="MuiContainer-root MuiContainer-maxWidthSm">
-                                                        <div class="MuiBox-root jss554 jss552">
-                                                            <h5 class="MuiTypography-root MuiTypography-h5">QIV, 2024
-                                                            </h5>
-                                                        </div>
-                                                        <div class="MuiBox-root jss555"><img
-                                                                src="./assets/images/wallet.png" alt=""
-                                                                style="width: 67px; margin-bottom: 20px;"></div>
-                                                        <h6 class="MuiTypography-root MuiTypography-h6">Wallet
-                                                            Multichain</h6>
-                                                        <div class="MuiBox-root jss556">
-                                                            <p class="MuiTypography-root MuiTypography-body2">Secure,
-                                                                fast, store as many coins as possible with our
-                                                                Multichain Wallet</p>
+                                            <div class="roadmap">
+                                                <div>
+                                                    <p class=" MuiTypography-root jss197 MuiTypography-body1">
+                                                    <div class="MuiBox-root jss535 jss532" align="center">
+                                                        <div class="MuiContainer-root MuiContainer-maxWidthSm">
+                                                            <div class="MuiBox-root jss536" align="center">
+                                                                <h5 class="MuiTypography-root MuiTypography-h5">QI, QII
+                                                                    2023
+                                                                </h5>
+                                                            </div>
+                                                            <div
+                                                                class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2">
+                                                                <div class="MuiGrid-root MuiGrid-grid-xs-2 MuiGrid-grid-sm-2 MuiGrid-grid-md-2 MuiGrid-grid-lg-2"
+                                                                    align="left"><img
+                                                                        src="./assets/images/arbitrage.png"
+                                                                        alt="images">
+                                                                </div>
+                                                                <div class="MuiGrid-root MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-10 MuiGrid-grid-lg-10"
+                                                                    align="left">
+                                                                    <h6 class="MuiTypography-root MuiTypography-h6">
+                                                                        Arbitrage Bot Development</h6>
+                                                                    <p class="MuiTypography-root MuiTypography-body2">
+                                                                        Simple
+                                                                        and useful for traders who want to automate
+                                                                        their
+                                                                        buy and sell orders</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="MuiBox-root jss537">
+                                                                <div
+                                                                    class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2">
+                                                                    <div class="MuiGrid-root MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-10 MuiGrid-grid-lg-10"
+                                                                        align="right">
+                                                                        <h6 class="MuiTypography-root MuiTypography-h6">
+                                                                            Play2Earn With NFT Staking</h6>
+                                                                        <p
+                                                                            class="MuiTypography-root MuiTypography-body2">
+                                                                            There will be a combination of focus on
+                                                                            collection and focus on creativity</p>
+                                                                    </div>
+                                                                    <div class="MuiGrid-root MuiGrid-grid-xs-2 MuiGrid-grid-sm-2 MuiGrid-grid-md-2 MuiGrid-grid-lg-2"
+                                                                        align="right"><img
+                                                                            src="./assets/images/earn.png" alt="images">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="MuiBox-root jss538">
+                                                                <div
+                                                                    class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2">
+                                                                    <div class="MuiGrid-root MuiGrid-grid-xs-2 MuiGrid-grid-sm-2 MuiGrid-grid-md-2 MuiGrid-grid-lg-2"
+                                                                        align="left"><img src="./assets/images/nftm.png"
+                                                                            alt="images">
+                                                                    </div>
+                                                                    <div class="MuiGrid-root MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-10 MuiGrid-grid-lg-10"
+                                                                        align="left">
+                                                                        <h6 class="MuiTypography-root MuiTypography-h6">
+                                                                            NFT
+                                                                            Marketplace</h6>
+                                                                        <p
+                                                                            class="MuiTypography-root MuiTypography-body2">
+                                                                            Where you can trade, buy and sell your NFTs.
+                                                                            This place helps transfer value between
+                                                                            projects
+                                                                            and the Biworld ecosystem</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="MuiBox-root jss539">
+                                                                <div
+                                                                    class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2">
+                                                                    <div class="MuiGrid-root MuiGrid-grid-xs-10 MuiGrid-grid-sm-9 MuiGrid-grid-md-9 MuiGrid-grid-lg-10"
+                                                                        align="right">
+                                                                        <h6 class="MuiTypography-root MuiTypography-h6">
+                                                                            IOT
+                                                                            App</h6>
+                                                                        <p
+                                                                            class="MuiTypography-root MuiTypography-body2">
+                                                                            We'll integrate multiple apps so you can
+                                                                            control
+                                                                            as many things as possible</p>
+                                                                    </div>
+                                                                    <div class="MuiGrid-root MuiGrid-grid-xs-2 MuiGrid-grid-sm-3 MuiGrid-grid-md-3 MuiGrid-grid-lg-2"
+                                                                        align="right"><img src="./assets/images/iot.png"
+                                                                            alt="images">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
                                                         </div>
                                                     </div>
+                                                    </p>
+                                                    <div></div>
                                                 </div>
-                                                </p>
-                                                <div></div>
                                             </div>
-                                        </div>
-                                        <div class="roadmap">
+                                            <div class="roadmap">
+                                                <div>
+                                                    <p class=" MuiTypography-root jss197 MuiTypography-body1">
+                                                    <div class="MuiBox-root jss543 jss540" align="center">
+                                                        <div class="MuiContainer-root MuiContainer-maxWidthSm">
+                                                            <div class="MuiBox-root jss544" align="center">
+                                                                <h5 class="MuiTypography-root MuiTypography-h5">QIII,
+                                                                    QIV
+                                                                    2023</h5>
+                                                            </div>
+                                                            <div
+                                                                class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2">
+                                                                <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2"
+                                                                    align="left">
+                                                                    <img src="./assets/images/roadmap_7.png"
+                                                                        alt="images">
+                                                                </div>
+                                                                <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10"
+                                                                    align="left">
+                                                                    <h6 class="MuiTypography-root MuiTypography-h6">
+                                                                        Flatform
+                                                                        Blockchain Development POS + Wallet</h6>
+                                                                    <p class="MuiTypography-root MuiTypography-body2">
+                                                                        There
+                                                                        will be a platform serving many aspects in the
+                                                                        life
+                                                                        of the Biworld community</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="MuiBox-root jss545">
+                                                                <div
+                                                                    class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2">
+                                                                    <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10"
+                                                                        align="right">
+                                                                        <h6 class="MuiTypography-root MuiTypography-h6">
+                                                                            Meeting App</h6>
+                                                                        <p
+                                                                            class="MuiTypography-root MuiTypography-body2">
+                                                                            Soon we will meet, exchange and communicate
+                                                                            on
+                                                                            our own platform. Great!</p>
+                                                                    </div>
+                                                                    <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2"
+                                                                        align="left">
+                                                                        <img src="./assets/images/roadmap_8.png"
+                                                                            alt="images">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    </p>
+                                                    <div></div>
+                                                </div>
+                                            </div>
+                                            <div class="roadmap">
+                                                <div>
+                                                    <p class=" MuiTypography-root jss197 MuiTypography-body1">
+                                                    <div class="MuiBox-root jss548 jss546">
+                                                        <div class="MuiContainer-root MuiContainer-maxWidthSm">
+                                                            <div class="MuiBox-root jss549 jss547">
+                                                                <h5 class="MuiTypography-root MuiTypography-h5">QI, QII
+                                                                    2024
+                                                                </h5>
+                                                            </div>
+                                                            <div
+                                                                class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2">
+                                                                <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2"
+                                                                    align="left">
+                                                                    <img src="./assets/images/network.png" alt="images"
+                                                                        style="width: 67px;">
+                                                                </div>
+                                                                <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10"
+                                                                    align="left">
+                                                                    <h6 class="MuiTypography-root MuiTypography-h6">
+                                                                        Metaverse Development</h6>
+                                                                    <p class="MuiTypography-root MuiTypography-body2">
+                                                                        Many
+                                                                        applications will be released. However, the
+                                                                        field of
+                                                                        education, training and health will be the most
+                                                                        focused</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="MuiBox-root jss550">
+                                                                <div
+                                                                    class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2">
+                                                                    <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10"
+                                                                        align="right">
+                                                                        <h6 class="MuiTypography-root MuiTypography-h6">
+                                                                            Lending &amp; Borrowing Platform Over
+                                                                            Flatform
+                                                                        </h6>
+                                                                        <p
+                                                                            class="MuiTypography-root MuiTypography-body2">
+                                                                            There will be improvements and connections
+                                                                            between platforms to meet the needs of
+                                                                            investors
+                                                                        </p>
+                                                                    </div>
+                                                                    <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2"
+                                                                        align="left">
+                                                                        <img src="./assets/images/lending.png"
+                                                                            alt="images">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    </p>
+                                                    <div></div>
+                                                </div>
+                                            </div>
+                                            <div class="roadmap">
+                                                <div>
+                                                    <p class=" MuiTypography-root jss197 MuiTypography-body1">
+                                                    <div class="MuiBox-root jss553 jss551">
+                                                        <div class="MuiContainer-root MuiContainer-maxWidthSm">
+                                                            <div class="MuiBox-root jss554 jss552">
+                                                                <h5 class="MuiTypography-root MuiTypography-h5">QIV,
+                                                                    2024
+                                                                </h5>
+                                                            </div>
+                                                            <div class="MuiBox-root jss555"><img
+                                                                    src="./assets/images/wallet.png" alt=""
+                                                                    style="width: 67px; margin-bottom: 20px;"></div>
+                                                            <h6 class="MuiTypography-root MuiTypography-h6">Wallet
+                                                                Multichain</h6>
+                                                            <div class="MuiBox-root jss556">
+                                                                <p class="MuiTypography-root MuiTypography-body2">
+                                                                    Secure,
+                                                                    fast, store as many coins as possible with our
+                                                                    Multichain Wallet</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    </p>
+                                                    <div></div>
+                                                </div>
+                                            </div>
+                                            <div class="roadmap">
 
-                                            <div>
-                                                <p class="MuiTypography-root jss197 MuiTypography-body1">
-                                                <div class="MuiBox-root jss559 jss557">
-                                                    <div class="MuiContainer-root MuiContainer-maxWidthSm">
-                                                        <div class="MuiBox-root jss560 jss558">
-                                                            <h5 class="MuiTypography-root MuiTypography-h5">QII, QIII
-                                                                2025</h5>
-                                                        </div>
-                                                        <div class="MuiBox-root jss561"><img
-                                                                src="./assets/images/exchangeicon.png" alt=""
-                                                                style="width: 67px; margin-bottom: 20px;"></div>
-                                                        <h6 class="MuiTypography-root MuiTypography-h6">DEX Development
-                                                        </h6>
-                                                        <div class="MuiBox-root jss562">
-                                                            <p class="MuiTypography-root MuiTypography-body2">Control,
-                                                                anonymity, security remain the number one priority of
-                                                                our Dex exchange</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                </p>
-                                                <div></div>
-                                            </div>
-                                        </div>
-                                        <div class="roadmap">
-                                            <div>
-                                                <p class="MuiTypography-root jss167 MuiTypography-body1">
-                                                <div class="MuiBox-root jss185 jss183">
-                                                    <div class="MuiContainer-root MuiContainer-maxWidthSm">
-                                                        <div class="MuiBox-root jss186 jss184">
-                                                            <h5 class="MuiTypography-root MuiTypography-h5">QIV, 2026+
-                                                            </h5>
-                                                        </div>
-                                                        <div class="MuiBox-root jss187"><img
-                                                                src="./assets/images/rocket.png" alt=""></div>
-                                                        <h6 class="MuiTypography-root MuiTypography-h6">After the
-                                                            projects in the roadmap are completed, we will proceed to
-                                                            develop the followings:</h6>
-                                                        <div class="MuiBox-root jss188">
-                                                            <p class="MuiTypography-root MuiTypography-body2">•
-                                                                Education in the future</p>
-                                                            <p class="MuiTypography-root MuiTypography-body2">•
-                                                                Community healthcare products apply virtual reality</p>
-                                                            <p class="MuiTypography-root MuiTypography-body2">• New
-                                                                electronic algorithm technology • Edge computing</p>
-                                                            <p class="MuiTypography-root MuiTypography-body2">• IOT and
-                                                                technology of IOT in the future</p>
-                                                            <p class="MuiTypography-root MuiTypography-body2"> Follow
-                                                                our roadmap regularly to stay updated on the projects we
-                                                                have completed as well as the projects we are building
-                                                            </p>
+                                                <div>
+                                                    <p class="MuiTypography-root jss197 MuiTypography-body1">
+                                                    <div class="MuiBox-root jss559 jss557">
+                                                        <div class="MuiContainer-root MuiContainer-maxWidthSm">
+                                                            <div class="MuiBox-root jss560 jss558">
+                                                                <h5 class="MuiTypography-root MuiTypography-h5">QII,
+                                                                    QIII
+                                                                    2025</h5>
+                                                            </div>
+                                                            <div class="MuiBox-root jss561"><img
+                                                                    src="./assets/images/exchangeicon.png" alt=""
+                                                                    style="width: 67px; margin-bottom: 20px;"></div>
+                                                            <h6 class="MuiTypography-root MuiTypography-h6">DEX
+                                                                Development
+                                                            </h6>
+                                                            <div class="MuiBox-root jss562">
+                                                                <p class="MuiTypography-root MuiTypography-body2">
+                                                                    Control,
+                                                                    anonymity, security remain the number one priority
+                                                                    of
+                                                                    our Dex exchange</p>
+                                                            </div>
                                                         </div>
                                                     </div>
+                                                    </p>
+                                                    <div></div>
                                                 </div>
-                                                </p>
-                                                <div></div>
+                                            </div>
+                                            <div class="roadmap">
+                                                <div>
+                                                    <p class="MuiTypography-root jss167 MuiTypography-body1">
+                                                    <div class="MuiBox-root jss185 jss183">
+                                                        <div class="MuiContainer-root MuiContainer-maxWidthSm">
+                                                            <div class="MuiBox-root jss186 jss184">
+                                                                <h5 class="MuiTypography-root MuiTypography-h5">QIV,
+                                                                    2026+
+                                                                </h5>
+                                                            </div>
+                                                            <div class="MuiBox-root jss187"><img
+                                                                    src="./assets/images/rocket.png" alt=""></div>
+                                                            <h6 class="MuiTypography-root MuiTypography-h6">After the
+                                                                projects in the roadmap are completed, we will proceed
+                                                                to
+                                                                develop the followings:</h6>
+                                                            <div class="MuiBox-root jss188">
+                                                                <p class="MuiTypography-root MuiTypography-body2">•
+                                                                    Education in the future</p>
+                                                                <p class="MuiTypography-root MuiTypography-body2">•
+                                                                    Community healthcare products apply virtual reality
+                                                                </p>
+                                                                <p class="MuiTypography-root MuiTypography-body2">• New
+                                                                    electronic algorithm technology • Edge computing</p>
+                                                                <p class="MuiTypography-root MuiTypography-body2">• IOT
+                                                                    and
+                                                                    technology of IOT in the future</p>
+                                                                <p class="MuiTypography-root MuiTypography-body2">
+                                                                    Follow
+                                                                    our roadmap regularly to stay updated on the
+                                                                    projects we
+                                                                    have completed as well as the projects we are
+                                                                    building
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    </p>
+                                                    <div></div>
+                                                </div>
                                             </div>
                                         </div>
-                                        <div class="MuiBox-root jss299 jss293">
+                                        <div class="custom-click">
+                                            <div class="roadmap activeRoadmap">
+                                                <div>
+                                                    <p class=" MuiTypography-root jss292 MuiTypography-body1">
+                                                    <div class="MuiBox-root jss294 jss248">
+                                                        <div class="MuiContainer-root MuiContainer-maxWidthSm">
+                                                            <div class="MuiBox-root jss295">
+                                                                <h5 class="MuiTypography-root MuiTypography-h5">
+                                                                    September 2021
+                                                                </h5>
+                                                            </div>
+                                                            <div class="MuiBox-root jss296">
+                                                                <img src="./assets/images/bulb.png" alt="">
+                                                            </div>
+                                                            <div class="MuiBox-root jss297">
+                                                                <h6 class="MuiTypography-root MuiTypography-h6">Idea
+                                                                    generation and group gathering
+                                                                </h6>
+                                                            </div>
+                                                            <div class="MuiBox-root jss298">
+                                                                <p class="MuiTypography-root MuiTypography-body2">
+                                                                    Luckily we had the same idea about building the next
+                                                                    generation of decentralized computing power and from
+                                                                    there our company was born
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    </p>
+                                                    <div></div>
+                                                </div>
+                                            </div>
+                                            <div class="roadmap">
+                                                <div>
+                                                    <p class=" MuiTypography-root jss197 MuiTypography-body1">
+                                                    <div class="MuiBox-root jss528 jss525" align="center">
+                                                        <div class="MuiContainer-root MuiContainer-maxWidthSm">
+                                                            <div class="MuiBox-root jss529" align="center">
+                                                                <h5 class="MuiTypography-root MuiTypography-h5">QIII,
+                                                                    QIV
+                                                                    2022</h5>
+                                                            </div>
+                                                            <div
+                                                                class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2">
+                                                                <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2 MuiGrid-grid-sm-2 MuiGrid-grid-md-2 MuiGrid-grid-lg-2"
+                                                                    align="left"><img src="./assets/images/app.png"
+                                                                        alt="images">
+                                                                </div>
+                                                                <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-10 MuiGrid-grid-lg-10"
+                                                                    align="left">
+                                                                    <h6 class="MuiTypography-root MuiTypography-h6">AI
+                                                                        App
+                                                                    </h6>
+                                                                    <p class="MuiTypography-root MuiTypography-body2">
+                                                                        There
+                                                                        will be a great assistant for businesses in
+                                                                        today's
+                                                                        human resource management</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="MuiBox-root jss530">
+                                                                <div
+                                                                    class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2">
+                                                                    <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-9 MuiGrid-grid-sm-10 MuiGrid-grid-md-10 MuiGrid-grid-lg-10"
+                                                                        align="right">
+                                                                        <h6 class="MuiTypography-root MuiTypography-h6">
+                                                                            Social Media</h6>
+                                                                        <p
+                                                                            class="MuiTypography-root MuiTypography-body2">
+                                                                            Exciting experiences await the first users
+                                                                            of
+                                                                            our social networking platform. It will
+                                                                            definitely be interesting!</p>
+                                                                    </div>
+                                                                    <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3 MuiGrid-grid-sm-2 MuiGrid-grid-md-2 MuiGrid-grid-lg-2"
+                                                                        align="left"><img
+                                                                            src="./assets/images/socialIcon.png"
+                                                                            alt="images"></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="MuiBox-root jss531">
+                                                                <div
+                                                                    class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2">
+                                                                    <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2 MuiGrid-grid-sm-2 MuiGrid-grid-md-2 MuiGrid-grid-lg-2"
+                                                                        align="left"><img
+                                                                            src="./assets/images/chainP.png"
+                                                                            alt="images"></div>
+                                                                    <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-10 MuiGrid-grid-lg-10"
+                                                                        align="left">
+                                                                        <h6 class="MuiTypography-root MuiTypography-h6">
+                                                                            Private Chain + Stable Coin (Bit = USDT)
+                                                                        </h6>
+                                                                        <p
+                                                                            class="MuiTypography-root MuiTypography-body2">
+                                                                            1
+                                                                            platform coin used to store and exchange
+                                                                            value
+                                                                            in the Biworld ecosystem will appear</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    </p>
+                                                    <div></div>
+                                                </div>
+                                            </div>
+                                            <div class="roadmap">
+                                                <div>
+                                                    <p class=" MuiTypography-root jss197 MuiTypography-body1">
+                                                    <div class="MuiBox-root jss535 jss532" align="center">
+                                                        <div class="MuiContainer-root MuiContainer-maxWidthSm">
+                                                            <div class="MuiBox-root jss536" align="center">
+                                                                <h5 class="MuiTypography-root MuiTypography-h5">QI, QII
+                                                                    2023
+                                                                </h5>
+                                                            </div>
+                                                            <div
+                                                                class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2">
+                                                                <div class="MuiGrid-root MuiGrid-grid-xs-2 MuiGrid-grid-sm-2 MuiGrid-grid-md-2 MuiGrid-grid-lg-2"
+                                                                    align="left"><img
+                                                                        src="./assets/images/arbitrage.png"
+                                                                        alt="images">
+                                                                </div>
+                                                                <div class="MuiGrid-root MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-10 MuiGrid-grid-lg-10"
+                                                                    align="left">
+                                                                    <h6 class="MuiTypography-root MuiTypography-h6">
+                                                                        Arbitrage Bot Development</h6>
+                                                                    <p class="MuiTypography-root MuiTypography-body2">
+                                                                        Simple
+                                                                        and useful for traders who want to automate
+                                                                        their
+                                                                        buy and sell orders</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="MuiBox-root jss537">
+                                                                <div
+                                                                    class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2">
+                                                                    <div class="MuiGrid-root MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-10 MuiGrid-grid-lg-10"
+                                                                        align="right">
+                                                                        <h6 class="MuiTypography-root MuiTypography-h6">
+                                                                            Play2Earn With NFT Staking</h6>
+                                                                        <p
+                                                                            class="MuiTypography-root MuiTypography-body2">
+                                                                            There will be a combination of focus on
+                                                                            collection and focus on creativity</p>
+                                                                    </div>
+                                                                    <div class="MuiGrid-root MuiGrid-grid-xs-2 MuiGrid-grid-sm-2 MuiGrid-grid-md-2 MuiGrid-grid-lg-2"
+                                                                        align="right"><img
+                                                                            src="./assets/images/earn.png" alt="images">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="MuiBox-root jss538">
+                                                                <div
+                                                                    class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2">
+                                                                    <div class="MuiGrid-root MuiGrid-grid-xs-2 MuiGrid-grid-sm-2 MuiGrid-grid-md-2 MuiGrid-grid-lg-2"
+                                                                        align="left"><img src="./assets/images/nftm.png"
+                                                                            alt="images">
+                                                                    </div>
+                                                                    <div class="MuiGrid-root MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-10 MuiGrid-grid-lg-10"
+                                                                        align="left">
+                                                                        <h6 class="MuiTypography-root MuiTypography-h6">
+                                                                            NFT
+                                                                            Marketplace</h6>
+                                                                        <p
+                                                                            class="MuiTypography-root MuiTypography-body2">
+                                                                            Where you can trade, buy and sell your NFTs.
+                                                                            This place helps transfer value between
+                                                                            projects
+                                                                            and the Biworld ecosystem</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="MuiBox-root jss539">
+                                                                <div
+                                                                    class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2">
+                                                                    <div class="MuiGrid-root MuiGrid-grid-xs-10 MuiGrid-grid-sm-9 MuiGrid-grid-md-9 MuiGrid-grid-lg-10"
+                                                                        align="right">
+                                                                        <h6 class="MuiTypography-root MuiTypography-h6">
+                                                                            IOT
+                                                                            App</h6>
+                                                                        <p
+                                                                            class="MuiTypography-root MuiTypography-body2">
+                                                                            We'll integrate multiple apps so you can
+                                                                            control
+                                                                            as many things as possible</p>
+                                                                    </div>
+                                                                    <div class="MuiGrid-root MuiGrid-grid-xs-2 MuiGrid-grid-sm-3 MuiGrid-grid-md-3 MuiGrid-grid-lg-2"
+                                                                        align="right"><img src="./assets/images/iot.png"
+                                                                            alt="images">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    </p>
+                                                    <div></div>
+                                                </div>
+                                            </div>
+                                            <div class="roadmap">
+                                                <div>
+                                                    <p class=" MuiTypography-root jss197 MuiTypography-body1">
+                                                    <div class="MuiBox-root jss543 jss540" align="center">
+                                                        <div class="MuiContainer-root MuiContainer-maxWidthSm">
+                                                            <div class="MuiBox-root jss544" align="center">
+                                                                <h5 class="MuiTypography-root MuiTypography-h5">QIII,
+                                                                    QIV
+                                                                    2023</h5>
+                                                            </div>
+                                                            <div
+                                                                class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2">
+                                                                <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2"
+                                                                    align="left">
+                                                                    <img src="./assets/images/roadmap_7.png"
+                                                                        alt="images">
+                                                                </div>
+                                                                <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10"
+                                                                    align="left">
+                                                                    <h6 class="MuiTypography-root MuiTypography-h6">
+                                                                        Flatform
+                                                                        Blockchain Development POS + Wallet</h6>
+                                                                    <p class="MuiTypography-root MuiTypography-body2">
+                                                                        There
+                                                                        will be a platform serving many aspects in the
+                                                                        life
+                                                                        of the Biworld community</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="MuiBox-root jss545">
+                                                                <div
+                                                                    class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2">
+                                                                    <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10"
+                                                                        align="right">
+                                                                        <h6 class="MuiTypography-root MuiTypography-h6">
+                                                                            Meeting App</h6>
+                                                                        <p
+                                                                            class="MuiTypography-root MuiTypography-body2">
+                                                                            Soon we will meet, exchange and communicate
+                                                                            on
+                                                                            our own platform. Great!</p>
+                                                                    </div>
+                                                                    <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2"
+                                                                        align="left">
+                                                                        <img src="./assets/images/roadmap_8.png"
+                                                                            alt="images">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    </p>
+                                                    <div></div>
+                                                </div>
+                                            </div>
+                                            <div class="roadmap">
+                                                <div>
+                                                    <p class=" MuiTypography-root jss197 MuiTypography-body1">
+                                                    <div class="MuiBox-root jss548 jss546">
+                                                        <div class="MuiContainer-root MuiContainer-maxWidthSm">
+                                                            <div class="MuiBox-root jss549 jss547">
+                                                                <h5 class="MuiTypography-root MuiTypography-h5">QI, QII
+                                                                    2024
+                                                                </h5>
+                                                            </div>
+                                                            <div
+                                                                class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2">
+                                                                <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2"
+                                                                    align="left">
+                                                                    <img src="./assets/images/network.png" alt="images"
+                                                                        style="width: 67px;">
+                                                                </div>
+                                                                <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10"
+                                                                    align="left">
+                                                                    <h6 class="MuiTypography-root MuiTypography-h6">
+                                                                        Metaverse Development</h6>
+                                                                    <p class="MuiTypography-root MuiTypography-body2">
+                                                                        Many
+                                                                        applications will be released. However, the
+                                                                        field of
+                                                                        education, training and health will be the most
+                                                                        focused</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="MuiBox-root jss550">
+                                                                <div
+                                                                    class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2">
+                                                                    <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10"
+                                                                        align="right">
+                                                                        <h6 class="MuiTypography-root MuiTypography-h6">
+                                                                            Lending &amp; Borrowing Platform Over
+                                                                            Flatform
+                                                                        </h6>
+                                                                        <p
+                                                                            class="MuiTypography-root MuiTypography-body2">
+                                                                            There will be improvements and connections
+                                                                            between platforms to meet the needs of
+                                                                            investors
+                                                                        </p>
+                                                                    </div>
+                                                                    <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2"
+                                                                        align="left">
+                                                                        <img src="./assets/images/lending.png"
+                                                                            alt="images">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    </p>
+                                                    <div></div>
+                                                </div>
+                                            </div>
+                                            <div class="roadmap">
+                                                <div>
+                                                    <p class=" MuiTypography-root jss197 MuiTypography-body1">
+                                                    <div class="MuiBox-root jss553 jss551">
+                                                        <div class="MuiContainer-root MuiContainer-maxWidthSm">
+                                                            <div class="MuiBox-root jss554 jss552">
+                                                                <h5 class="MuiTypography-root MuiTypography-h5">QIV,
+                                                                    2024
+                                                                </h5>
+                                                            </div>
+                                                            <div class="MuiBox-root jss555"><img
+                                                                    src="./assets/images/wallet.png" alt=""
+                                                                    style="width: 67px; margin-bottom: 20px;"></div>
+                                                            <h6 class="MuiTypography-root MuiTypography-h6">Wallet
+                                                                Multichain</h6>
+                                                            <div class="MuiBox-root jss556">
+                                                                <p class="MuiTypography-root MuiTypography-body2">
+                                                                    Secure,
+                                                                    fast, store as many coins as possible with our
+                                                                    Multichain Wallet</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    </p>
+                                                    <div></div>
+                                                </div>
+                                            </div>
+                                            <div class="roadmap">
+
+                                                <div>
+                                                    <p class="MuiTypography-root jss197 MuiTypography-body1">
+                                                    <div class="MuiBox-root jss559 jss557">
+                                                        <div class="MuiContainer-root MuiContainer-maxWidthSm">
+                                                            <div class="MuiBox-root jss560 jss558">
+                                                                <h5 class="MuiTypography-root MuiTypography-h5">QII,
+                                                                    QIII
+                                                                    2025</h5>
+                                                            </div>
+                                                            <div class="MuiBox-root jss561"><img
+                                                                    src="./assets/images/exchangeicon.png" alt=""
+                                                                    style="width: 67px; margin-bottom: 20px;"></div>
+                                                            <h6 class="MuiTypography-root MuiTypography-h6">DEX
+                                                                Development
+                                                            </h6>
+                                                            <div class="MuiBox-root jss562">
+                                                                <p class="MuiTypography-root MuiTypography-body2">
+                                                                    Control,
+                                                                    anonymity, security remain the number one priority
+                                                                    of
+                                                                    our Dex exchange</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    </p>
+                                                    <div></div>
+                                                </div>
+                                            </div>
+                                            <div class="roadmap">
+                                                <div>
+                                                    <p class="MuiTypography-root jss167 MuiTypography-body1">
+                                                    <div class="MuiBox-root jss185 jss183">
+                                                        <div class="MuiContainer-root MuiContainer-maxWidthSm">
+                                                            <div class="MuiBox-root jss186 jss184">
+                                                                <h5 class="MuiTypography-root MuiTypography-h5">QIV,
+                                                                    2026+
+                                                                </h5>
+                                                            </div>
+                                                            <div class="MuiBox-root jss187"><img
+                                                                    src="./assets/images/rocket.png" alt=""></div>
+                                                            <h6 class="MuiTypography-root MuiTypography-h6">After the
+                                                                projects in the roadmap are completed, we will proceed
+                                                                to
+                                                                develop the followings:</h6>
+                                                            <div class="MuiBox-root jss188">
+                                                                <p class="MuiTypography-root MuiTypography-body2">•
+                                                                    Education in the future</p>
+                                                                <p class="MuiTypography-root MuiTypography-body2">•
+                                                                    Community healthcare products apply virtual reality
+                                                                </p>
+                                                                <p class="MuiTypography-root MuiTypography-body2">• New
+                                                                    electronic algorithm technology • Edge computing</p>
+                                                                <p class="MuiTypography-root MuiTypography-body2">• IOT
+                                                                    and
+                                                                    technology of IOT in the future</p>
+                                                                <p class="MuiTypography-root MuiTypography-body2">
+                                                                    Follow
+                                                                    our roadmap regularly to stay updated on the
+                                                                    projects we
+                                                                    have completed as well as the projects we are
+                                                                    building
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    </p>
+                                                    <div></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="MuiBox-root jss299 jss293 custom-click">
                                             <div class="MuiTableContainer-root">
                                                 <div
                                                     class="MuiPaper-root MuiStepper-root MuiStepper-horizontal MuiStepper-alternativeLabel MuiPaper-elevation0">
@@ -1278,6 +1741,21 @@
 
                 })
             })
+            </script>
+
+            <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js">
+            </script>
+
+            <script>
+            $('.custom-slick').slick({
+
+                prevArrow: `<button type="button" class="slick-prev">Previous</button>`,
+                nextArrow: `<button type="button" class="slick-next">Next</button>`,
+                dots: true,
+                customPaging: () => {
+                    return `<div class="MuiMobileStepper-dot"></div>`
+                }
+            });
             </script>
         </div>
     </div>

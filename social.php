@@ -28,7 +28,7 @@
             <?php
             include 'header.html';
             ?>
-            <div class="jss2">
+            <div class="jss2 mainContent">
                 <div class="MuiBox-root jss274 jss273">
                     <div class="MuiBox-root jss276 jss275">
                         <div class="MuiContainer-root MuiContainer-maxWidthLg">
