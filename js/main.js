@@ -61,3 +61,36 @@ buttonRef.forEach((el) => {
     });
   }
 });
+
+let iconRoadMap = Array.from(document.querySelectorAll(' .icon-roadmap-image'));
+iconRoadMap &&
+  iconRoadMap.forEach((elm, idx) => {
+    elm.addEventListener('click', () => {
+      let active = document.querySelector('.custom-click .active-roadmap');
+      let wrapLine = document.querySelectorAll('.custom-click .wrap-line');
+      let roadmap = document.querySelectorAll('.custom-click .roadmap');
+      let roadmapActive = document.querySelector(
+        '.custom-click .roadmap.activeRoadmap'
+      );
+      active.classList.remove('active-roadmap');
+      elm.classList.add('active-roadmap');
+      for (let index = 0; index < wrapLine.length; index++) {
+        wrapLine[index].classList.remove('highlight-line-color');
+      }
+      for (let index = 0; index < idx; index++) {
+        wrapLine[index].classList.add('highlight-line-color');
+      }
+
+      roadmapActive.classList.remove('activeRoadmap');
+      roadmap[idx].classList.add('activeRoadmap');
+    });
+  });
+
+$('.custom-slick').slick({
+  prevArrow: `<button type="button" class="slick-prev">Previous</button>`,
+  nextArrow: `<button type="button" class="slick-next">Next</button>`,
+  dots: true,
+  customPaging: () => {
+    return `<div class="MuiMobileStepper-dot"></div>`;
+  },
+});
